@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="0dp"
+
+        >
+        <TextView
+            android:id="@+id/TaskList"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:text="Lista zgłoszeń oczekujących"
+            android:textColor="#fff"
+            android:background="@drawable/bgred"
+            android:padding="15dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginRight="10dp"
+            android:textStyle="bold"
+
+            />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="175dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="0dp"
+        >
+        <TextView
+            android:id="@+id/TaskListDone"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:text="Lista zgłoszeń wykonanych"
+            android:textColor="#fff"
+            android:background="@drawable/bgbluedark"
+            android:padding="15dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginRight="10dp"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="335dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="0dp"
+        >
+        <TextView
+            android:id="@+id/TaskListUser"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:text="Twoje zgłoszenia"
+            android:textColor="#fff"
+            android:background="@drawable/bgblue"
+            android:padding="15dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginRight="10dp"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

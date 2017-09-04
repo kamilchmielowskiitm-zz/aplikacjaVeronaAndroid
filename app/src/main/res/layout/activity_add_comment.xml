@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+  <TextView
+      android:id="@+id/textView"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:textSize="32sp"
+      android:text="Treść Komentarza" />
+
+  <EditText
+      android:id="@+id/editcomment"
+      android:layout_width="match_parent"
+      android:layout_height="300dp"
+      android:ems="10"
+      android:hint="Wpisz treść"
+      android:inputType="textPersonName"
+      android:text="" />
+
+  <Button
+      android:id="@+id/sendcomment"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Wyślij Komenatrz"
+      android:layout_gravity="bottom"/>
+</LinearLayout>
+
+
+
